@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js" defer></script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #BE185D;
+        }
+    </style>
+</head>
+
+<body class="relative">
+    <!-- Navbar -->
+
+    <div class="navbar bg-pink-700 h-14 w-100">
+        <div class="navbar-elements flex justify-between text-white font-bold text-3xl">
+            <!-- Navbar Elements -->
+            <div class="ecom ml-4 mt-2">eCom.</div>
+
+            <div class="cart mr-4 mt-2"><a href="cart.html">Cart</a></div>
+
+        </div>
+    </div>
+
+    <!-- Main Section -->
+
+    <div class="main">
+
+        <!-- Category Bar -->
+        <!-- Category - Smartphones -->
+
+        <div class="category-Smartphones flex mt-2 text-lg">
+            <span class="ml-4 font-bold ">Category:</span>
+            <h4 class="ml-1 ">Smart Phones</h4>
+        </div>
+
+        <!-- Items Image and name -->
+
+        <div class=" mt-2 flex justify-evenly  h-auto w-100" id="smartphones-container">
+
+        </div>
+
+        <!-- Category - Watches -->
+
+        <div class="category-Smartphones flex mt-2 text-lg">
+            <span class="ml-4 font-bold ">Category:</span>
+            <h4 class="ml-1 ">Watches</h4>
+        </div>
+
+        <div class=" mt-2 flex justify-evenly" id="watches-container">
+
+        </div>
+
+        <!-- Category - Clothes -->
+        <div class="category-Smartphones flex mt-2 text-lg">
+            <span class="ml-4 font-bold ">Category:</span>
+            <h4 class="ml-1 ">Clothes</h4>
+        </div>
+
+        <div class=" mt-2 flex justify-evenly " id="clothes-container">
+
+        </div>
+    </div>
+
+    <!-- Toast -->
+
+    <div id="toast-container" class="fixed top-0 right-0 m-4 z-50"></div>
+
+
+    <!-- Foooter -->
+
+    <div class="bg-pink-700 h-10 w-100 text-white text-xl font-bold flex justify-center items-center">
+        <div>
+            <p>&copy All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
